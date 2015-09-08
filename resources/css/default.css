@@ -1,22 +1,31 @@
-﻿.navbarStyle {
-    background-color: #fff;
-    box-shadow: 0 0 0 2px rgba(0,0,0,0.3);
-    box-sizing: border-box;
-    color: #092140;
-    height: 46px;
-    margin-top: -47px;
-    position: fixed;
-    transition-duration: .5s;
-    transition-property: background-color;
-    width: 100%;
-    z-index: 5000101;
+﻿/* Navigation Bar Styles */
+.navbarStyle a {
+    color: white;
+}
+.navbarStyle > li a:hover, .navbarStyle > li a:focus {
+    background-color: transparent;
+    color: #A183B8;
+}
+.navbarHeaderStyle a {
+    color: white;
+}
+.navbarHeaderStyle a:hover {
+    color: #A183B8;
 }
 
+/* Background */
 .bodyBackGround {
     background-image: url("../images/dreamLand.png");
     background-position: top center;
-    background-size: cover,auto;
+    background-size: cover, auto;
     background-repeat: no-repeat;
+    min-height: 720px;
+}
+
+.overSizedBackground {
+    background-image: url("../images/clouds.png");
+    background-repeat: repeat !important;
+    min-height: 999px;
 }
 
 .pageContent {
