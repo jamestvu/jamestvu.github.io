@@ -1,4 +1,8 @@
 ﻿/* Navigation Bar Styles */
+.navbarStyle {
+    font-size: 18px;
+}
+
 .navbarStyle a {
     color: white;
 }
@@ -29,6 +33,30 @@
 }
 
 .pageContent {
-    opacity: 0.95;
+    opacity: 0.85;
     background-color: transparent;
+}
+
+/* About Page*/
+.aboutHeader {
+    font-size: 30px;
+}
+
+.introText {
+    font-size: 18px;
+}
+
+.smallerIntroText {
+    font-size: 8px;
+}
+
+.profilePic {
+    min-height: 200px;
+    width: 150px;
+}
+
+/* Contact Page*/
+.mediaIcon {
+    height: 150px;
+    width: 150px;
 }
