@@ -1,8 +1,8 @@
 ﻿angular
-    .module('jamesVuWebsite',
+    .module('JamesVuWebsite',
     ['ui.router', 'jamesVuWebsite.Routes', 'AboutModule', 'ContactModule', 'NavigationModule']);
 
 angular
-    .module('jamesVuWebsite')
+    .module('JamesVuWebsite')
     .constant('applicationName', 'JamesVuWebsite')
     .constant('versionNumber', '0.1');

@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html ng-app="jamesVuWebsite">
+<html ng-app="JamesVuWebsite">
 <head>
     <title>James Vu</title>
 
@@ -23,13 +23,11 @@
     <script src="modules/contact/ContactModule.js"></script>
 
 </head>
-<body class="overSizedBackground">
-    <div class="bodyBackGround">
-        <div data-ng-include src="'modules/navigation/navigation.html'"></div>
-        <div class="container pageContent">
-            <div data-ui-view></div>
+<body class="bodyBackGround">
+    <div data-ng-include src="'modules/navigation/navigation.html'"></div>
+    <div class="container pageContent">
+        <div data-ui-view></div>
 
-        </div>
     </div>
 </body>
 </html>
