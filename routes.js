@@ -14,6 +14,6 @@
             });
     }
     angular
-        .module('jamesVuWebsite.Routes', [])
+        .module('JamesVuWebsite.Routes', [])
         .config(['$stateProvider', '$urlRouterProvider', Routes]);
 })();

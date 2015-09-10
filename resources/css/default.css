@@ -21,6 +21,7 @@
 .bodyBackGround {
     background-image: url("../images/dreamLand.png");
     background-position: top;
+    background-color: #211AB1;
 }
 
 .pageContent {
@@ -41,9 +42,18 @@
     font-size: 8px;
 }
 
+@media (max-width: 767px) { 
+    .introText {
+        text-align: center;
+    }
+}
+
 .profilePic {
     min-height: 200px;
     width: 150px;
+        display:block;
+    margin:auto;
+    
 }
 
 /* Contact Page*/
