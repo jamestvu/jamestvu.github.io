@@ -1,63 +1,63 @@
 ﻿/* Navigation Bar Styles */
-.navbarStyle {
+.navbar-style {
     font-size: 18px;
 }
 
-.navbarStyle a {
+.navbar-style a {
     color: white;
 }
-.navbarStyle > li a:hover, .navbarStyle > li a:focus {
+.navbar-style > li a:hover, .navbar-style > li a:focus {
     background-color: transparent;
     color: #A183B8;
 }
-.navbarHeaderStyle a {
+.navbar-header-style a {
     color: white;
 }
-.navbarHeaderStyle a:hover {
+.navbar-header-style a:hover {
     color: #A183B8;
 }
 
 /* Background */
-.bodyBackGround {
+.body-background {
     background-image: url("../images/dreamLand.png");
     background-position: top;
     background-color: #211AB1;
 }
 
-.pageContent {
+.page-content {
     opacity: 0.85;
     background-color: transparent;
 }
 
 /* About Page*/
-.aboutHeader {
+.about-header {
     font-size: 30px;
 }
 
-.introText {
+.intro-text {
     font-size: 18px;
 }
 
-.smallerIntroText {
+.smaller-intro-text {
     font-size: 8px;
 }
 
 @media (max-width: 767px) { 
-    .introText {
+    .intro-text {
         text-align: center;
     }
 }
 
-.profilePic {
+.profile-pic {
     min-height: 200px;
     width: 150px;
-        display:block;
-    margin:auto;
+    display: block;
+    margin: auto;
     
 }
 
 /* Contact Page*/
-.mediaIcon {
+.media-icon {
     height: 150px;
     width: 150px;
 }
