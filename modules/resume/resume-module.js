@@ -1,2 +1,4 @@
-﻿angular
-    .module('ResumeModule', [])
+﻿(function () {
+    angular
+        .module('ResumeModule', []);
+})();

@@ -2,7 +2,6 @@
 .navbar-style {
     font-size: 18px;
 }
-
 .navbar-style a {
     color: white;
 }
@@ -23,40 +22,46 @@
     background-position: top;
     background-color: #211AB1;
 }
-
 .page-content {
     opacity: 0.85;
     background-color: transparent;
 }
 
-/* About Page*/
-.about-header {
+/* Shared CSS */
+.section-header {
     font-size: 30px;
 }
 
+/* http://angular-ui.github.io/bootstrap/#/accordion */
+.nav, .pagination, .carousel, .panel-title a { 
+    cursor: pointer; 
+}
+
+/* About Page */
 .intro-text {
     font-size: 18px;
 }
-
-.smaller-intro-text {
-    font-size: 8px;
-}
-
 @media (max-width: 767px) { 
     .intro-text {
         text-align: center;
     }
 }
-
+.smaller-intro-text {
+    font-size: 8px;
+}
 .profile-pic {
     min-height: 200px;
     width: 150px;
     display: block;
     margin: auto;
-    
 }
 
-/* Contact Page*/
+/* Resume CSS */
+.resume-section-header {
+    font-size: 20px;
+}
+
+/* Contact Page */
 .media-icon {
     height: 150px;
     width: 150px;

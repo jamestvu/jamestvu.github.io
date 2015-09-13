@@ -1,6 +1,13 @@
 ﻿angular
     .module('JamesVuWebsite',
-    ['ui.router', 'JamesVuWebsite.Routes', 'AboutModule', 'ContactModule', 'ResumeModule']);
+    [
+        'ui.router',
+        'ui.bootstrap',
+        'JamesVuWebsite.Routes',
+        'AboutModule',
+        'ContactModule',
+        'ResumeModule'
+    ]);
 
 angular
     .module('JamesVuWebsite')
