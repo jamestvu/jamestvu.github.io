@@ -1,6 +1,6 @@
 ﻿angular
     .module('JamesVuWebsite',
-    ['ui.router', 'JamesVuWebsite.Routes', 'AboutModule', 'ContactModule']);
+    ['ui.router', 'JamesVuWebsite.Routes', 'AboutModule', 'ContactModule', 'ResumeModule']);
 
 angular
     .module('JamesVuWebsite')
