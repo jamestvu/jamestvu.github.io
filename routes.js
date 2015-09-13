@@ -9,7 +9,9 @@
             })
             .state('resume', {
                 url: '/resume',
-                templateUrl: 'modules/resume/resume.html'
+                templateUrl: 'modules/resume/resume.html',
+                controller: 'ResumeCtrl',
+                controllerAs: 'resumeCtrl'
             })
             .state('contact', {
                 url: '/contact',

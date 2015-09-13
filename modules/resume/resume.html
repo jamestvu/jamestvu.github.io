@@ -4,32 +4,25 @@
     </div>
 </div>  
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <div class="text-center resume-section-header"> Work Experience </div>
-    </div>
-
-    <div class="panel-body">
+<accordion close-others="false">
+    <accordion-group is-open="true">
+        <accordion-heading>
+            <span class="resume-section-header"> Skills </span> <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+        </accordion-heading>
         TODO
-    </div>
-</div>  
+    </accordion-group>
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <div class="text-center resume-section-header"> Skills </div>
-    </div>
-
-    <div class="panel-body">
+    <accordion-group is-open="true">
+        <accordion-heading>
+            <span class="resume-section-header"> Work Experience </span> <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+        </accordion-heading>
         TODO
-    </div>
-</div>  
+    </accordion-group>
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <div class="text-center resume-section-header"> Education </div>
-    </div>
-
-    <div class="panel-body">
+    <accordion-group is-open="true">
+        <accordion-heading>
+            <span class="resume-section-header"> Education </span> <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
+        </accordion-heading>
         TODO
-    </div>
-</div>  
+    </accordion-group>
+</accordion>
