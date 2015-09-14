@@ -31,6 +31,14 @@
 .section-header {
     font-size: 30px;
 }
+.section-text {
+    font-size: 18px;
+}
+@media (max-width: 767px) { 
+    .section-text {
+        text-align: center;
+    }
+}
 
 /* http://angular-ui.github.io/bootstrap/#/accordion */
 .nav, .pagination, .carousel, .panel-title a { 
@@ -38,15 +46,7 @@
 }
 
 /* About Page */
-.intro-text {
-    font-size: 18px;
-}
-@media (max-width: 767px) { 
-    .intro-text {
-        text-align: center;
-    }
-}
-.smaller-intro-text {
+.smaller-section-text {
     font-size: 8px;
 }
 .profile-pic {
