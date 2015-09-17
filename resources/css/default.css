@@ -53,6 +53,9 @@
 .smaller-section-text {
     font-size: 8px;
 }
+.about-section {
+    margin-left: 50px;
+}
 .profile-pic {
     min-height: 200px;
     width: 150px;
