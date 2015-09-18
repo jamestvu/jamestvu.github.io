@@ -1,5 +1,42 @@
 ﻿[
   {
-
+    "name": "Skills",
+    "category": "skills",
+    "entries": [
+      {
+        "name": "Java SE/EE",
+        "duration": "7 years experience",
+        "imagePath": "resources/images/resume/java.png",
+        "description": [
+          "Developed enterprise web applications ",
+          "Created and maintained SOAP web services",
+          "Deployed applications to various servers: JBoss, IBM Websphere, and IBM Websphere Portal"
+        ]
+      },
+      {
+        "name": "Google Web Toolkit (GWT)",
+        "duration": "1 year experience",
+        "imagePath": "resources/images/resume/gwt.png",
+        "description": [
+          "Developed an enterprise record management system",
+          "Integrated a GWT-based web forms application into IBM Websphere Portal"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Education",
+    "category": "education",
+    "entries": [
+      {
+        "name": "Bachelor of Science in Information and Computer Science",
+        "duration": "University of Hawaii at Manoa | Graduated December 2013",
+        "imagePath": "resources/images/resume/uhLogo.jpg",
+        "description": [
+          "ICS GPA: 3.85/4.0",
+          "Graduated Magna Cum Laude"
+        ]
+      }
+    ]
   }
 ]

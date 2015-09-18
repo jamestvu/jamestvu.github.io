@@ -4,6 +4,19 @@
     </div>
 </div>  
 
+<div class="row">
+    <div class="col-xs-12">
+        <div data-ng-repeat-start="category in resume">
+            <h2 class="resume-section-header">{{ category.name }}</h2>
+        </div>
+        <div data-ng-repeat="entry in category.entries">
+            <div data-resume-detail data-detail="entry"></div>
+            <hr data-ng-if="!$last">
+        </div>
+        <div data-ng-repeat-end>
+        </div>
+    </div>
+</div>
 
 <accordion close-others="false">
     <accordion-group is-open="true">
@@ -17,9 +30,6 @@
                 <span>I'm a drinka the java :)</span>
             </div>
         </div>
-
-        {{ resumeCtrl.hello}}
-        {{ hello }}
     </accordion-group>
 
     <accordion-group is-open="true">
