@@ -8,7 +8,6 @@
                 $http.get('modules/resume/resume.json')
                     .then(function (response) {
                         resume = response.data;
-                        console.info(resume);
                         deferred.resolve(resume);
                     });
             }
