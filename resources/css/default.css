@@ -65,7 +65,11 @@
 
 /* Resume CSS */
 .resume-section-header {
-    font-size: 20px;
+    font-size: 30px;
 }
+.resume-detail {
+    margin-top: 10px;
+}
+
 
 /* Contact Page */

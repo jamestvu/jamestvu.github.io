@@ -4,45 +4,17 @@
     </div>
 </div>  
 
-<div class="row">
-    <div class="col-xs-12">
-        <div data-ng-repeat-start="category in resume">
-            <h2 class="resume-section-header">{{ category.name }}</h2>
-        </div>
-        <div data-ng-repeat="entry in category.entries">
-            <div data-resume-detail data-detail="entry"></div>
-            <hr data-ng-if="!$last">
-        </div>
-        <div data-ng-repeat-end>
-        </div>
-    </div>
-</div>
-
 <accordion close-others="false">
-    <accordion-group is-open="true">
-        <accordion-heading>
-            <span class="resume-section-header"> Skills </span> <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-        </accordion-heading>
-
-        <div class="row section-text">
-            <div class="col-sm-12">
-                <img class="media-icon" src="../../resources/images/resume/java.png" />
-                <span>I'm a drinka the java :)</span>
+    <div data-ng-repeat-start="category in resume">
+        <accordion-group is-open="true" class="resume-detail">
+            <accordion-heading>
+                    <span class="resume-section-header"> {{ category.name }} </span> <i class="pull-right glyphicon glyphicon-chevron-down"></i>
+            </accordion-heading>
+            <div data-ng-repeat="entry in category.entries">
+                <div data-resume-detail data-detail="entry"></div>
+                <hr data-ng-if="!$last">
             </div>
-        </div>
-    </accordion-group>
-
-    <accordion-group is-open="true">
-        <accordion-heading>
-            <span class="resume-section-header"> Work Experience </span> <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-        </accordion-heading>
-        TODO
-    </accordion-group>
-
-    <accordion-group is-open="true">
-        <accordion-heading>
-            <span class="resume-section-header"> Education </span> <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i>
-        </accordion-heading>
-        TODO
-    </accordion-group>
+        </accordion-group>
+    </div>
+    <div data-ng-repeat-end></div>
 </accordion>
