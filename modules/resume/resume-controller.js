@@ -18,12 +18,9 @@
 (function () {
     function ResumeCtrl($scope, ResumeService) {
         $scope.resume = [];
-        initialize();
-        function initialize() {
-            ResumeService.getResume().then(function (resume) {
-                $scope.resume = resume;
-            });
-        }
+        ResumeService.getResume().then(function (resume) {
+            $scope.resume = resume;
+        });
 
     }
 
