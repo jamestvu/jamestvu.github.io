@@ -39,9 +39,11 @@
         text-align: center;
     }
 }
-.media-icon {
+.resume-section-image {
     height: 150px;
     width: 150px;
+    display: block;
+    margin: auto;
 }
 
 /* http://angular-ui.github.io/bootstrap/#/accordion */
@@ -73,3 +75,7 @@
 
 
 /* Contact Page */
+.media-icon {
+    height: 150px;
+    width: 150px;
+}

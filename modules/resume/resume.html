@@ -8,7 +8,7 @@
     <div data-ng-repeat-start="category in resume">
         <accordion-group is-open="true" class="resume-detail">
             <accordion-heading>
-                    <span class="resume-section-header"> {{ category.name }} </span> <i class="pull-right glyphicon glyphicon-chevron-down"></i>
+                <span class="resume-section-header"> {{ category.name }} </span> <i class="pull-right glyphicon glyphicon-chevron-down"></i>
             </accordion-heading>
             <div data-ng-repeat="entry in category.entries">
                 <div data-resume-detail data-detail="entry"></div>
