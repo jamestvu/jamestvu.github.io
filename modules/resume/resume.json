@@ -21,6 +21,56 @@
           "Developed an enterprise record management system",
           "Integrated a GWT-based web forms application into IBM Websphere Portal"
         ]
+      },
+      {
+        "name": "ASP.NET/VB.NET",
+        "duration": "1 year experience",
+        "imagePath": "resources/images/resume/aspNet.png",
+        "description": [
+          "Created a web forms application that allowed CRUD routines using LINQ",
+          "Instructed a class on Object Oriented Programming, ASP.NET, and VB.NET fundamentals"
+        ]
+      },
+      {
+        "name": "SQL",
+        "duration": "3 years experience",
+        "imagePath": "resources/images/resume/sql.png",
+        "description": [
+          "Developed applications incorporating the use of SQL relational databases",
+          "Oracle, SQL Server, DB2, MySQL, Access"
+        ]
+      },
+      {
+        "name": "Play Framework",
+        "duration": "1 year experience",
+        "imagePath": "resources/images/resume/playFramework.png",
+        "description": [
+          "Developed a web based enclyopedia application for famous surfers, using the Play Framework, MySQL, and CloudBees"
+        ]
+      },
+      {
+        "name": "AngularJS",
+        "duration": "1 month experience",
+        "imagePath": "resources/images/resume/angularjs.png",
+        "description": [
+          "Developed this website in HTML, CSS, and AngularJS!"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Work Experience",
+    "category": "workExperience",
+    "entries": [
+      {
+        "name": "Software Developer/Systems Analyst/Instructor",
+        "duration": "eWorld Enterprise Solutions, Inc. | December 2012 - Present",
+        "imagePath": "resources/images/resume/eWorld.PNG",
+        "description": [
+          "Developed multiple enterprise web applications and web services using Google Web Toolkit, Java EE, and IBM technologies",
+          "Instructed a class on Object Oriented Programming, ASP.NET, and VB.NET fundamentals",
+          "In the process of upgrading an enterprise legacy web application from using ADABAS and NATURAL to Oracle Database and Java EE web services"
+        ]
       }
     ]
   },
