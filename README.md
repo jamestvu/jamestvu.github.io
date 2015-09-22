@@ -1,2 +1,2 @@
 # jamestvu.github.io
-James Vu Stuff
+My Personal Website done in HTML, CSS, and AngularJS.
